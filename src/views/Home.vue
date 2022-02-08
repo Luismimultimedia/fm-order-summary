@@ -1,25 +1,35 @@
 <template>
-  <div class="home">
-      <p>
-        Home
-      </p>
-  </div>
+  <main class="home-page">
+    <order-summary-card-component
+      title="Order Summary"
+      description="You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!"
+      titlePlan="Annual Plan"
+      pricePlan="59.99"
+      successTextAction="Proceed to Payment"
+      cancelTextAction="Cancel Order"
+    />
+  </main>
 </template>
 
 <script>
-// @ is an alias to /src
+import OrderSummaryCardComponent from '../components/orderSummaryCard/OrderSummaryCardComponent';
 
 export default {
+  components: { OrderSummaryCardComponent },
   name: 'Home',
 }
 </script>
 
 <style lang="scss">
-.home {
-    background-image: url("/assets/images/pattern-background-desktop");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+@import url('../styles/global.scss');
+.home-page {
+  align-items: center;
+  background-image: url("/assets/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
 }
 </style>

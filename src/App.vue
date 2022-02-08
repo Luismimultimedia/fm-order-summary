@@ -11,8 +11,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap');
-body {
-  font-family: 'Red Hat Display', sans-serif;
-}
+  @import url('./styles/global.scss');
 </style>
