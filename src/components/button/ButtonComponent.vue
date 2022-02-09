@@ -29,10 +29,17 @@ export default {
             background-color: var(--color-bright-blue);
             color: var(--color-very-pale-blue);
             border-radius: 10px;
+            box-shadow: 0px 5px 11px -2px rgba(99, 89, 209, 0.54);
+            &:hover {
+                opacity: .7;
+            }
         }
         &-secondary {
             background-color: white;
             color: var(--color-desaturated-blue);
+            &:hover {
+                color: black;
+            }
         } 
     }
 </style>

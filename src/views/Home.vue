@@ -31,5 +31,8 @@ export default {
   height: 100vh;
   justify-content: center;
   width: 100%;
+  @media (max-width: 425px) {
+    background-image: url("/assets/images/pattern-background-mobile.svg");
+  }
 }
 </style>

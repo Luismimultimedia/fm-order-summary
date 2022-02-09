@@ -49,6 +49,10 @@ export default {
         }
         &__change {
             color: var(--color-bright-blue);
+            &:hover {
+                color: hsl(245, 77%, 59%);
+                text-decoration: none;
+            }
         }
     }
 </style>

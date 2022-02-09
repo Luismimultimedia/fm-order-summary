@@ -51,6 +51,9 @@ export default {
             display: flex;
             flex-direction: column;
             width: 400px;
+            @media (max-width: 425px) {
+                width: 350px;
+            }
         }
         &__header {
             margin: 0;
