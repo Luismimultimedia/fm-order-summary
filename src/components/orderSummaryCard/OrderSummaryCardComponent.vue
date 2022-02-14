@@ -4,6 +4,7 @@
             <img
                 class="order-summary-card__header-img"
                 src="../../assets/images/illustration-hero.svg"
+                alt="Illustration hero order summary card"
             />
       </figure>
       <section class="order-summary-card__body">

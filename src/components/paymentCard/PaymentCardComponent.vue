@@ -1,6 +1,6 @@
 <template>
   <div class="payment-card__container">
-      <img src="../../assets/images/icon-music.svg" class="payment-card__icon" />
+      <img src="../../assets/images/icon-music.svg" class="payment-card__icon" alt="icon music" />
       <div class="payment-card__information">
           <p>{{ titlePlan }}</p>
           <p>${{ pricePlan }}/year</p>
@@ -49,6 +49,7 @@ export default {
         }
         &__change {
             color: var(--color-bright-blue);
+            font-weight: bold;
             &:hover {
                 color: hsl(245, 77%, 59%);
                 text-decoration: none;
